@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffba60">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp"
+            tools:context=".waste_request01">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:id="@+id/imageButton_back1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="#ffba60"
+                    app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="폐기물 처리"
+                    android:textColor="#313234"
+                    android:textSize="9pt" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="#ffba60" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:background="@drawable/border_layout"
+
+                    android:gravity="center"
+                    android:text="사진 촬영" />
+
+                <Button
+                    android:id="@+id/btnPhoto1"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#ffffff"
+                    app:cornerRadius="15dp"
+                    android:text="사진 등록"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="폐기물 종류"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/TextViewName"
+                    android:layout_width="300dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="폐기물 규격"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/TextViewSize"
+                    android:layout_width="300dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="4"
+                    android:ems="10"
+                    android:hint="눌러서 선택하세요"
+                    android:inputType="textPersonName" />
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="폐기물 처리 납부 비용"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/TextViewPay"
+                    android:layout_width="300dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:text="원" />
+
+                <Button
+                    android:id="@+id/next_bu"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="80dp"
+                    app:cornerRadius="10dp"
+                    android:layout_weight="2"
+                    android:backgroundTint="#ffffff"
+                    android:text="NEXT"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

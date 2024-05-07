@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/drawable/bin_blue.xml" value="0.1825" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/drawable/border_layout.xml" value="0.1205" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/activity_personal.xml" value="0.264" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/activity_signup.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dealing_confirm01.xml" value="0.264" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dealing_context.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dealing_list.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dealing_request01.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dealing_request02.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dialogchair.xml" value="0.1" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/dialogdesk.xml" value="0.12107396149949341" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/do_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/item_card.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/layout_navigation_header.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_list.xml" value="0.264" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_list1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_list2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_request01.xml" value="0.264" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_request02.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_request_comfirm02.xml" value="0.264" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/layout/waste_request_confirm01.xml" value="0.264" />
+        <entry key="..\:/Users/hello/Desktop/GitLab/22_if013/MyApplication/app/src/main/res/menu/navigation_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/drawable/bin_blue.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/drawable/rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/activity_personal.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dealing_confirm01.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dealing_context.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dealing_list.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dealing_request01.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dealing_request02.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dialog01.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/dialogchair.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/do_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/waste_list.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/waste_request01.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/waste_request02.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/waste_request_comfirm02.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/layout/waste_request_confirm01.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/22_if013-main/MyApplication/MyApplication/app/src/main/res/xml/file_paths.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
