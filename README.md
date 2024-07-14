@@ -9,3 +9,7 @@
 ![구성도](https://github.com/chaem0-0/22_kibwaproject/assets/96873719/d28982e8-6173-4ab4-a7fe-14e0ed8622a4)
 
 ## 결과물
+
+
+https://github.com/user-attachments/assets/ea7c828c-0946-41e4-8a5d-048585bf3ebb
+
