@@ -1,7 +1,12 @@
 # 22_kibwaproject
 데이터 분석 활용한 대형 폐기품(가전, 가구 등) 간소화 시스템
+
+
 <bar> 
 <bar>
+
+
+
 
 ## 📘 프로젝트 소개
 
@@ -61,8 +66,14 @@ AI 기반 어플리케이션을 개발하는 것을 목표로 합니다.
 - Air fryer, Fan, Gas stove, Microwave, Refrigerator  
 - Rice cooker, TV, Vacuum, Washing machine
 
+
+
+
 <bar> 
 <bar>
+
+
+
 
 ## 🔬 학습 및 추론 방식 (DensNet vs ResNet)
 전이학습 기반 CNN 모델 3종을 비교 실험:
@@ -82,8 +93,16 @@ AI 기반 어플리케이션을 개발하는 것을 목표로 합니다.
 - ✅ DenseNet은 모든 레이어가 서로 연결되어 있어 적은 정보 손실과 높은 학습 효율
 - ✅ ResNet보다 더 적은 파라미터로도 높은 정확도 달성 확인
 
+
+
+
+
 <bar> 
 <bar>
+
+
+
+
 
 ## 📦 결과물
 <p align="center">
