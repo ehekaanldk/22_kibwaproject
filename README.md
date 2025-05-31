@@ -21,14 +21,14 @@ AI 기반 어플리케이션을 개발하는 것을 목표로 합니다.
 4. **수익성**: 폐기 이후 사용자 맞춤형 신제품 광고 추천을 통한 수익 창출 가능
 
 
-## 🗂️ 주요 기능
+## 📌 주요 기능
 
 - 대형 폐기물 사진 업로드 → AI 분류 모델을 통해 항목 자동 분류  
 - 분류 결과에 따라 수거 신청 또는 중고 거래 서비스 연동  
 - 처리 완료 후 목록 확인
 
 
-## 🧰 기술 스택
+## ⚙️ 기술 스택
 
 | 항목 | 사용 기술 |
 |------|-----------|
@@ -45,11 +45,11 @@ AI 기반 어플리케이션을 개발하는 것을 목표로 합니다.
 
 ## 🧾 데이터셋
 
-### 📌 수집 방식
+### 수집 방식
 - Google, Naver 등 웹사이트를 활용한 이미지 크롤링
 - AI Hub의 생활 폐기물 이미지 데이터셋 활용
 
-### 📌 클래스 구성 (총 18종)
+### 클래스 구성 (총 18종)
 
 #### 가구 (9종)
 - Bed, Chair, Desk, Dressing table, Massage chair  
@@ -60,20 +60,32 @@ AI 기반 어플리케이션을 개발하는 것을 목표로 합니다.
 - Rice cooker, TV, Vacuum, Washing machine
 
 
+## 🔬 학습 및 추론 방식 (DensNet vs ResNet)
+전이학습 기반 CNN 모델 3종을 비교 실험:
+- **전이 학습(Transfer Learning)**을 활용하여 소량의 폐기물 이미지 데이터에도 효과적으로 학습할 수 있도록 설계.
+- 사전 학습된 ImageNet 가중치를 활용하고, 최상위 레이어를 폐기물 18종 분류에 맞게 재학습(fine-tuning) 함.
+- 데이터셋은 훈련(80%), 검증(10%), 테스트(10%)로 분할하여 학습의 일반화 성능 확보.
 
-## 🔬 학습 및 추론 방식 (DenseNet vs ResNet)
 
-### 📌 사용 모델
-전이학습 기반 CNN 모델 3종을 비교 실험하였습니다:
-
+## 📊 모델 성능 비교
 | 모델 | Val_Loss | Val_Accuracy (%) |
 |------|----------|------------------|
 | **DenseNet121** | **0.0691** | **97.82** |
 | ResNet152V2 | 0.1295 | 97.02 |
 | DenseNet201 | 0.1579 | 96.05 |
 
-### 📌 분석 결과
-✅ **DenseNet121**은 가장 적은 Loss와 높은 Accuracy를 기록하여 최종 분류 모델로 선정되었습니다.  
-✅ DenseNet은 모든 레이어가 서로 연결되어 있어 정보 손실이 적고 학습 효율이 높으며,  
-ResNet보다 더 적은 파라미터로도 높은 정확도를 달성한 것이 확인되었습니다.
+- ✅ **DenseNet121**은 가장 적은 Loss와 높은 Accuracy를 기록하여 최종 분류 모델로 선정  
+- ✅ DenseNet은 모든 레이어가 서로 연결되어 있어 적은 정보 손실과 높은 학습 효율
+- ✅ ResNet보다 더 적은 파라미터로도 높은 정확도 달성 확인
+
+
+## 📦 결과물
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0cd97aa9-4edb-4479-8aa5-04aa26601fda" width="19%" />
+  <img src="https://github.com/user-attachments/assets/31b2d09d-7f6b-4535-aaf5-7b4f31a541cf" width="19%" />
+  <img src="https://github.com/user-attachments/assets/050e7ba6-96bc-47f1-bcb9-e55c6f8965b6" width="19%" />
+  <img src="https://github.com/user-attachments/assets/e30b3b38-ca96-4bb7-99d7-7344373ad52b" width="19%" />
+  <img src="https://github.com/user-attachments/assets/79d1d713-6ee8-4d0e-b1cf-fa887e9d68c2" width="19%" />
+</p>
+
 
